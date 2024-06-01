@@ -1,10 +1,10 @@
+from collections import defaultdict
 import logging
 import re
-from collections import defaultdict
 from urllib.parse import urljoin
 
-import requests_cache
 from bs4 import BeautifulSoup
+import requests_cache
 from tqdm import tqdm
 
 from configs import configure_argument_parser, configure_logging
