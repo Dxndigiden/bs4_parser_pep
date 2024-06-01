@@ -140,7 +140,7 @@ def pep(session):
     return [
         ('Статус', 'Количество'),
         *statuses.items(),
-        (('Всего:'), sum(statuses.values())),
+        (('Total:'), sum(statuses.values())),
     ]
 
 
